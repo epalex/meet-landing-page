@@ -155,3 +155,50 @@ footer {
   line-height: 26px;
   max-width: 320px;
 }
+
+.third-page {
+  background-color: #4d96a9;
+  background-image: url(./assets/mobile/image-footer.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #fafafa;
+  text-align: center;
+  margin-bottom: 12px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+}
+
+.third-page h2 {
+  padding-top: 48px;
+  max-width: 325px;
+  margin-bottom: 18px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.third-page p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  max-width: 325px;
+  margin-bottom: 24px;
+}
+
+.download-btn-2 {
+  color: white;
+  background-color: #855fb1;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  padding: 16px 48px;
+  margin-bottom: 48px;
+}
+
+.version-2 {
+  font-weight: 500;
+}
