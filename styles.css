@@ -7,3 +7,151 @@
 body {
   font-family: "Red Hat Display", sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.hero-images {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.image-hero-left {
+  height: 160px;
+}
+
+.image-hero-right {
+  height: 160px;
+}
+
+h1 {
+  text-align: center;
+  color: #28283d;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.meet {
+  color: #87879d;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-btn {
+  color: white;
+  background-color: #4d96a9;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  padding: 16px 48px;
+  margin-bottom: 16px;
+}
+
+.version {
+  color: #8fe3f9;
+}
+
+.what-btn {
+  color: white;
+  background-color: #855fb1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  font-style: normal;
+  border: none;
+  border-radius: 32px;
+  padding: 16px 32px;
+  margin-bottom: 140px;
+  width: 75%;
+  margin-left: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.paminos {
+  color: tomato;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: darkgrey;
+  margin-bottom: 20px;
+}
+
+.second-page img {
+  width: 150px;
+  height: 140px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+
+.info {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 90px;
+}
+
+.built {
+  color: #4d96a9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 4px;
+}
+
+.info h2 {
+  max-width: 325px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  color: #28283d;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.messages {
+  color: #87879d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 320px;
+}
